@@ -1,4 +1,4 @@
-FROM python:3.7-alpine 
+FROM python:3.13.2-alpine 
 EXPOSE 8000
 WORKDIR /app 
 COPY requirements.txt /app
