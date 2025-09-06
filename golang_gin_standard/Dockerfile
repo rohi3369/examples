@@ -1,4 +1,4 @@
-FROM golang:1.15
+FROM golang:1.25.1
 WORKDIR /app
 ADD service/ /app
 RUN go get . && go build -o app
