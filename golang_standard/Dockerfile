@@ -1,4 +1,4 @@
-FROM golang:1.15
+FROM golang:1.26rc2
 WORKDIR /app
 ADD . /app
 RUN go build -o app
